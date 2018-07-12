@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
   // Auto-mine when the secret button is clicked
   autoButton.addEventListener("click", () => {
     var hash = "33"
-    while(hash.slice(0, 2) !== "00") {
+    while(hash.slice(0, 3) !== "000") {
       var nonce = parseInt(nonceBox.value, 10)
       changeBy(1)
 
